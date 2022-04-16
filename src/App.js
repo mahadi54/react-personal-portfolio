@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+
 import './App.css';
+import './css/styles.css'
+import Navbar from './components/Navbar/Navbar'
+import Header from './components/Header/Header'
+import Portfolio from './components/Portfolio/Portfolio'
+import About from './components/About/About'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+
+import PortfolioData from './PortfolioData/PortfolioData';
+import SinglePortfolio from './components/SinglePortfolio/SinglePortfolio';
 
 function App() {
+  const elements = PortfolioData.map((singlePort)=>{
+    return  <SinglePortfolio singlePort={singlePort}  />
+   
+
+})
+console.log(elements)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="page-top">
+      <Navbar/>
+      <Header />
+      <Portfolio elements={elements}/>
+      <About />
+      <Contact />
+      <Footer />
+   
+     
     </div>
   );
 }
