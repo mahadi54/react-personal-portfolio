@@ -7,11 +7,18 @@ function SinglePortfolio(props) {
   return (
     
       <div className="col-md-6 col-lg-4 mb-5">
-        <div className="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target={`#${props.singlePort.port}`}>
+        <div className="card portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target={`#${props.singlePort.port}`}>
             <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                <div className="portfolio-item-caption-content text-center text-white"><p>{props.singlePort.title}</p></div>
             </div>
-            <img className="img-fluid" src={props.singlePort.img} alt="..." />
+                <img style={{height: '250px'}} className="card-img-top" src={props.singlePort.img} alt=""/>
+                <div className="card-body">
+                <h5 className="card-title text-center">{props.singlePort.title}</h5>
+                
+                
+            </div>
+            
+            
         </div>
         
 
@@ -30,7 +37,7 @@ function SinglePortfolio(props) {
                                   
                                     <div className="divider-custom">
                                         <div className="divider-custom-line"></div>
-                                        <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                                        <div className="divider-custom-icon"><i className="fa-solid fa-code"></i></div>
                                         <div className="divider-custom-line"></div>
                                     </div>
                                 

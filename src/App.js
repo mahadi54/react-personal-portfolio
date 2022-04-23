@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio/Portfolio'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
-
+import Skills from './components/Skills/Skills';
 import PortfolioData from './PortfolioData/PortfolioData';
 import SinglePortfolio from './components/SinglePortfolio/SinglePortfolio';
 
@@ -24,7 +24,9 @@ console.log(elements)
       <Navbar/>
       <Header />
       <Portfolio elements={elements}/>
+      <Skills/>
       <About />
+      
       <Contact />
       <Footer />
    

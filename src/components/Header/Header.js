@@ -4,7 +4,7 @@ import '../../css/styles.css'
 
 function Header() {
   return (
-    <header class=" page-section header  masthead bg-primary text-white text-center" id="header">
+    <header  class=" page-section header  masthead bg-primary text-white text-center" id="header">
             <div class="container d-flex align-items-center flex-column">
                
                 <img class="masthead-avatar mb-5" src='./assets/img/mahadi2.png' alt="Mahadi Al Hasan" />
@@ -13,7 +13,7 @@ function Header() {
                 
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="fa-solid fa-code"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                

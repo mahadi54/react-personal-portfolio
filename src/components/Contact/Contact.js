@@ -10,7 +10,7 @@ function Contact() {
            
                 <div className="divider-custom">
                     <div className="divider-custom-line"></div>
-                    <div className="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div className="divider-custom-icon"><i className="fa-solid fa-mug-saucer"></i></div>
                     <div className="divider-custom-line"></div>
                 </div>
               
