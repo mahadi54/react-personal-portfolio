@@ -7,7 +7,7 @@ function Header() {
     <header  class=" page-section header  masthead bg-primary text-white text-center" id="header">
             <div class="container d-flex align-items-center flex-column">
                
-                <img class="masthead-avatar mb-5" src='./assets/img/mahadi2.png' alt="Mahadi Al Hasan" />
+                <img class="masthead-avatar mb-5" src='./assets/img/mahadi3.png' alt="Mahadi Al Hasan" />
                
                 <h1 class="masthead-heading text-uppercase mb-0">Mahadi Al Hasan</h1>
                 
