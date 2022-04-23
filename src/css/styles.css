@@ -11450,7 +11450,7 @@ html {
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  font-size: 2.2rem;
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
@@ -11458,6 +11458,22 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+}
+@media (max-width: 576px) {
+  .masthead .masthead-heading {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.05rem;
+  }
+  
+}
+@media (min-width: 768px) {
+  .masthead .masthead-subheading {
+    font-size: 1.25rem;
+  }
+
 }
 
 @media (min-width: 992px) {
@@ -11532,7 +11548,7 @@ html {
   color:#000
 }
 .navbar-logo{
-  width: 150px;
+  width: 55%;
 }
 .about{
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../public/assets/img/header_img4.jpg');

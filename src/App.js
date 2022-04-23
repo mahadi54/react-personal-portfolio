@@ -1,7 +1,8 @@
 
 import './App.css';
 import './css/styles.css'
-import Navbar from './components/Navbar/Navbar'
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js'
+import NavBar from './components/Navbar/Navbar'
 import Header from './components/Header/Header'
 import Portfolio from './components/Portfolio/Portfolio'
 import About from './components/About/About'
@@ -21,7 +22,7 @@ console.log(elements)
 
   return (
     <div className="page-top">
-      <Navbar/>
+      <NavBar/>
       <Header />
       <Portfolio elements={elements}/>
       <Skills/>
