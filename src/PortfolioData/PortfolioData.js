@@ -20,12 +20,13 @@ export default [
     {
         id: 3,
         port: 'portfolioModal3',
-        img: './assets/img/portfolio/JS-DOM-Book-List.png',
-        title: 'Javascript Book List App',
-        des: 'This is a simple javascript book list app, created with js DOM. User can add their favourite books as well as they can delete books,',
-        live: 'https://js-book-list-app-mahadi54.netlify.app/',
-        github: 'https://github.com/mahadi54/Book-List-App',
+        img: './assets/img/portfolio/React-Movie-Search-App-1.png',
+        title: 'React Movie Search App',
+        des: 'This is a movie search app, created react js (react hooks). For the movie data, I use TMDB api. User can search their desire movies and see the description of the movies very easily. This site is fully responsive and mobile friendly also.',
+        live: 'https://react-movie-search-app-mahadi54.netlify.app/',
+        github: 'https://github.com/mahadi54/react-movie-search-app',
     },
+   
     {
         id: 4,
         port: 'portfolioModal4',
@@ -44,12 +45,13 @@ export default [
         live: 'https://react-todo-app-mahadi54.netlify.app/',
         github: 'https://github.com/mahadi54/react-todo-app'
     },
-    
     {
         id: 6,
         port: 'portfolioModal6',
-        img: './assets/img/portfolio/submarine.png',
-        title: 'Log Cabin6',
-        des: 'des6'
+        img: './assets/img/portfolio/JS-DOM-Book-List.png',
+        title: 'Javascript Book List App',
+        des: 'This is a simple javascript book list app, created with js DOM. User can add their favourite books as well as they can delete books,',
+        live: 'https://js-book-list-app-mahadi54.netlify.app/',
+        github: 'https://github.com/mahadi54/Book-List-App',
     },
 ]
